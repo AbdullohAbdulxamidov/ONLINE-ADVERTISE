@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    align-items: center;
+}
+
+.left-menu,
+.right-menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.left-menu li {
+    position: absolute;
+    left: 20px;
+}
+
+.right-menu li {
+    margin-left: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fa-bars {
+    color: red;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.search {
+    color: dodgerblue;
+    font-size: 18px;
+    margin-left: 32px;
+}
+
+.language {
+    font-size: 16px;
+}
+
+.add-discount {
+    padding: 10px 20px;
+    background-color: #ff0066;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* / NAVBAR */
+
+
+
+
+/* ASIDE */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 71.25rem;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 290px;
+    padding: 20px;
+    gap: 20px;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    background: #F0F6F6;
+}
+
+.discount-card {
+    background-color: white;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+.discount-card img {
+    width: 100%;
+    height: 120px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.title {
+    color: gray;
+    padding: 8px;
+}
+
+.subtitle {
+    padding: 8px;
+}
+
+.info {
+    color: gray;
+    padding: 8px;
+}
+
+.aside-buttons {
+    position: absolute;
+    right: 8px;
+}
+
+.keshbek-btn {
+    border: 2px solid gray;
+    border-radius: 3px;
+    color: gray;
+    background-color: white;
+    padding: 4px;
+}
+
+.percent-btn {
+    border: 2px solid gray;
+    border-radius: 3px;
+    color: white;
+    background-color: gray;
+    padding: 4px;
+}
+
+/* / ASIDE */
+
+
+
+
+
+/* MAIN */
+main {
+    box-sizing: border-box;
+    position: absolute;
+    top: 130px;
+    left: 330px;
+    right: 0;
+    background: #F0F6F6;
+    border-radius: 10px;
+}
+
+.main-heading {
+    padding: 20px;
+    font-weight: 700;
+    font-size: 44px;
+    color: #248888;
+    z-index: 100;
+}
+
+hr {
+    width: 94%;
+    color: #BEDADA;
+    margin-left: 3%;
+}
+
+main span {
+    display: inline-block;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.top-discounts {
+    position: relative;
+    top: 0;
+    margin: 10px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+
+.top-discounts img {
+    width: 100%;
+    height: 120px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    left: 0px;
+    margin-top: 80px;
+}
+
+
+.faq-section {
+    position: absolute;
+    left: 0px;
+    margin-top: 280px;
+}
+
+.faq {
+    background-color: #fff;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.question {
+    cursor: pointer;
+    font-size: 18px;
+    color: #1c4144;
+}
+
+.answer {
+    display: none;
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.answer a {
+    color: #00a0f0;
+    text-decoration: none;
+}
+
+.answer a:hover {
+    text-decoration: underline;
+}
+
+
+/* / MAIN */
